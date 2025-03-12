@@ -23,7 +23,7 @@ Build application & bootloader
 ```
     west build -p always -b stm32f429i_disc1
 ```
-## Flash using OpenOCD:
+## Flash
 ```
-    west flash --runner openocd
+    west flash
 ```
